@@ -16,6 +16,8 @@ const eqObjects = function(obj1, obj2) {
       if (!(eqArrays(obj1[property], obj2[property]))) {
         return false;
       }
+    } else if (!(Array.isArray(obj1[property])) && !(Array.isArray(obj2[property]))) {
+      eqObjects(obj1[property], obj2[property]);
     } else if (!(obj1[property] === obj2[property])) {
       return false;
     }
