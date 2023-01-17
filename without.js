@@ -16,3 +16,5 @@ const without = function(array, without) {
   }
   return result;
 };
+
+module.exports = without;
