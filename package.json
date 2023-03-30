@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@junaydh/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A library of useful functions for JavaScript, inspired by lodash.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Junaydh/lotide.git"
   },
-  "author": "",
+  "author": "@junaydh <github.com/junaydh> ",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Junaydh/lotide/issues"
